@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  gap: 6em;
+  width: 100%;
+  left: 0;
+  padding: 2em 4em;
+  box-sizing: border-box;
+  z-index: 9;
+}
+.header__links {
+  margin-left: auto;
+  display: flex;
+  gap: 3em;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.burger {
+  cursor: pointer;
+}
